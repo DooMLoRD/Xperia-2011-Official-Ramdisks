@@ -81,6 +81,11 @@
 # sysfs properties
 /sys/devices/virtual/input/input*   enable      0660  root   input
 /sys/devices/virtual/input/input*   poll_delay  0660  root   input
+/sys/devices/virtual/input/input*   bma250_rate        0640  system   system
+/sys/devices/virtual/input/input*   bma250_range       0640  system   system
+/sys/devices/virtual/input/input*   bma250_resolution  0640  system   system
+/sys/devices/virtual/input/input*   bmp180_rate        0640  system   system
+/sys/devices/virtual/input/input*   bmp180_resolution  0640  system   system
 
 /dev/msm_vidc_dec         0660   system     audio
 /dev/msm_vidc_enc         0660   system     audio
