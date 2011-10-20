@@ -80,6 +80,7 @@ do
   echo $MODEM > /sys/class/usb_composite/modem/enable
   echo $NMEA > /sys/class/usb_composite/nmea/enable
   echo $DIAG > /sys/class/usb_composite/diag/enable
+  echo "0" > /sys/class/usb_composite/accessory/enable
 
   /system/bin/log -t $TAG -p d "USB STATE: $USBSTATE"
 

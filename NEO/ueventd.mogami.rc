@@ -16,3 +16,4 @@
 /dev/oncrpc/3000006b:*          0660    radio   system
 /sys/devices/i2c-0/0-0040/leds/* delay_on  0644 system system
 /sys/devices/i2c-0/0-0040/leds/* delay_off 0644 system system
+/sys/devices/platform/msm_hsusb_host.0/usb* uevent 0660 root usb
