@@ -365,6 +365,11 @@ on boot
 
     exec /system/bin/usbeng
 
+    # Generate flag file for datarequest monitoring.
+    rm /data/datarequest_flg
+    write /data/datarequest_flg 12
+    chmod 644 /data/datarequest_flg
+
 service dfdump /system/bin/dfdump
     user root
     oneshot
